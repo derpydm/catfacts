@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CEA1D2672130F14500F8531B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA1D2662130F14500F8531B /* AppDelegate.swift */; };
-		CEA1D2692130F14500F8531B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA1D2682130F14500F8531B /* ViewController.swift */; };
+		CEA1D2692130F14500F8531B /* CatFactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA1D2682130F14500F8531B /* CatFactViewController.swift */; };
 		CEA1D26C2130F14500F8531B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA1D26A2130F14500F8531B /* Main.storyboard */; };
 		CEA1D26E2130F14500F8531B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA1D26D2130F14500F8531B /* Assets.xcassets */; };
 		CEA1D2712130F14500F8531B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA1D26F2130F14500F8531B /* LaunchScreen.storyboard */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		CEA1D2632130F14500F8531B /* catfacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = catfacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA1D2662130F14500F8531B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CEA1D2682130F14500F8531B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEA1D2682130F14500F8531B /* CatFactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFactViewController.swift; sourceTree = "<group>"; };
 		CEA1D26B2130F14500F8531B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEA1D26D2130F14500F8531B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEA1D2702130F14500F8531B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,7 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				CEA1D2662130F14500F8531B /* AppDelegate.swift */,
-				CEA1D2682130F14500F8531B /* ViewController.swift */,
+				CEA1D2682130F14500F8531B /* CatFactViewController.swift */,
+				CEA1D2942130F15100F8531B /* New Group */,
 				CEA1D26A2130F14500F8531B /* Main.storyboard */,
 				CEA1D26D2130F14500F8531B /* Assets.xcassets */,
 				CEA1D26F2130F14500F8531B /* LaunchScreen.storyboard */,
@@ -123,6 +124,13 @@
 				CEA1D2882130F14600F8531B /* Info.plist */,
 			);
 			path = catfactsUITests;
+			sourceTree = "<group>";
+		};
+		CEA1D2942130F15100F8531B /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEA1D2692130F14500F8531B /* ViewController.swift in Sources */,
+				CEA1D2692130F14500F8531B /* CatFactViewController.swift in Sources */,
 				CEA1D2672130F14500F8531B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
