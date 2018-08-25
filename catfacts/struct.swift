@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct catFact {
+struct catFact: Decodable {
     
     var text: String
     var id: String
@@ -21,6 +21,6 @@ struct catFact {
     init(from decoder: Decoder) throws {
         let valueContainer = try decoder.container(keyedBy: CodingKeys.self)
         self.text = try valueContainer.decode(String.self, forKey: CodingKeys.text)
-        self.id = try valueContainer.decode(String.self, forKey: CodingKeys.self)
+        self.id = try valueContainer.decode(String.self, forKey: CodingKeys.id)
     }
 }

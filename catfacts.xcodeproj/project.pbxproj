@@ -15,6 +15,9 @@
 		CEA1D27C2130F14600F8531B /* catfactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA1D27B2130F14600F8531B /* catfactsTests.swift */; };
 		CEA1D2872130F14600F8531B /* catfactsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA1D2862130F14600F8531B /* catfactsUITests.swift */; };
 		CEA1D2962130F47900F8531B /* struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA1D2952130F47900F8531B /* struct.swift */; };
+		CEA1D298213104BF00F8531B /* CatFactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA1D297213104BF00F8531B /* CatFactTableViewController.swift */; };
+		CEA1D29A2131071800F8531B /* CatFactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA1D2992131071800F8531B /* CatFactTableViewCell.swift */; };
+		CEA1D29C213108D200F8531B /* UIImage+gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA1D29B213108D200F8531B /* UIImage+gif.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		CEA1D2862130F14600F8531B /* catfactsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = catfactsUITests.swift; sourceTree = "<group>"; };
 		CEA1D2882130F14600F8531B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEA1D2952130F47900F8531B /* struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = struct.swift; sourceTree = "<group>"; };
+		CEA1D297213104BF00F8531B /* CatFactTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFactTableViewController.swift; sourceTree = "<group>"; };
+		CEA1D2992131071800F8531B /* CatFactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFactTableViewCell.swift; sourceTree = "<group>"; };
+		CEA1D29B213108D200F8531B /* UIImage+gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+gif.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +105,14 @@
 		CEA1D2652130F14500F8531B /* catfacts */ = {
 			isa = PBXGroup;
 			children = (
+				CEA1D297213104BF00F8531B /* CatFactTableViewController.swift */,
+				CEA1D2992131071800F8531B /* CatFactTableViewCell.swift */,
 				CEA1D2952130F47900F8531B /* struct.swift */,
 				CEA1D2662130F14500F8531B /* AppDelegate.swift */,
 				CEA1D2682130F14500F8531B /* CatFactViewController.swift */,
-				CEA1D2942130F15100F8531B /* New Group */,
-				CEA1D26A2130F14500F8531B /* Main.storyboard */,
 				CEA1D26D2130F14500F8531B /* Assets.xcassets */,
+				CEA1D26A2130F14500F8531B /* Main.storyboard */,
+				CEA1D29B213108D200F8531B /* UIImage+gif.swift */,
 				CEA1D26F2130F14500F8531B /* LaunchScreen.storyboard */,
 				CEA1D2722130F14500F8531B /* Info.plist */,
 			);
@@ -127,13 +135,6 @@
 				CEA1D2882130F14600F8531B /* Info.plist */,
 			);
 			path = catfactsUITests;
-			sourceTree = "<group>";
-		};
-		CEA1D2942130F15100F8531B /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +271,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEA1D298213104BF00F8531B /* CatFactTableViewController.swift in Sources */,
+				CEA1D29A2131071800F8531B /* CatFactTableViewCell.swift in Sources */,
+				CEA1D29C213108D200F8531B /* UIImage+gif.swift in Sources */,
 				CEA1D2962130F47900F8531B /* struct.swift in Sources */,
 				CEA1D2692130F14500F8531B /* CatFactViewController.swift in Sources */,
 				CEA1D2672130F14500F8531B /* AppDelegate.swift in Sources */,
