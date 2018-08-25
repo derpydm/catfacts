@@ -14,6 +14,7 @@
 		CEA1D2712130F14500F8531B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA1D26F2130F14500F8531B /* LaunchScreen.storyboard */; };
 		CEA1D27C2130F14600F8531B /* catfactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA1D27B2130F14600F8531B /* catfactsTests.swift */; };
 		CEA1D2872130F14600F8531B /* catfactsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA1D2862130F14600F8531B /* catfactsUITests.swift */; };
+		CEA1D2962130F47900F8531B /* struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA1D2952130F47900F8531B /* struct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		CEA1D2822130F14600F8531B /* catfactsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = catfactsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA1D2862130F14600F8531B /* catfactsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = catfactsUITests.swift; sourceTree = "<group>"; };
 		CEA1D2882130F14600F8531B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA1D2952130F47900F8531B /* struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = struct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		CEA1D2652130F14500F8531B /* catfacts */ = {
 			isa = PBXGroup;
 			children = (
+				CEA1D2952130F47900F8531B /* struct.swift */,
 				CEA1D2662130F14500F8531B /* AppDelegate.swift */,
 				CEA1D2682130F14500F8531B /* CatFactViewController.swift */,
 				CEA1D2942130F15100F8531B /* New Group */,
@@ -267,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEA1D2962130F47900F8531B /* struct.swift in Sources */,
 				CEA1D2692130F14500F8531B /* CatFactViewController.swift in Sources */,
 				CEA1D2672130F14500F8531B /* AppDelegate.swift in Sources */,
 			);
