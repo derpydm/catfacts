@@ -9,7 +9,7 @@
 import UIKit
 
 class CatFactViewController: UIViewController {
-
+    var CatFacts: [catFact]! = []
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor(red: 209/255, green: 1, blue: 235/255, alpha: 1)
@@ -53,6 +53,7 @@ class CatFactViewController: UIViewController {
                 DispatchQueue.main.async {
                     UIApplication.shared.isNetworkActivityIndicatorVisible = false
                     self.label.text = recievedCatFact.text
+                    self.CatFacts.append(recievedCatFact)
                 }
                 
             }
@@ -72,7 +73,10 @@ class CatFactViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue
+        if segue.identifier == "historySegue" {
+            let dest = segue.destination as! CatFactTableViewController
+            dest.CatFacts = CatFacts
+        }
     }
 
 }

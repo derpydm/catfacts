@@ -42,8 +42,8 @@ class CatFactTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "factCell", for: indexPath) as! CatFactTableViewCell
         if CatFacts != nil {
-            cell.idLabel.text = "#" + CatFacts[indexPath.row].id
-            cell.idLabel.text = CatFacts[indexPath.row].id
+            cell.idLabel.text = "#" + String(CatFacts[indexPath.row].id.prefix(5))
+            cell.factLabel.text = CatFacts[indexPath.row].text
         }
         // Configure the cell...
 
